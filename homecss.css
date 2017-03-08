@@ -1,0 +1,58 @@
+#main
+{
+
+height:25px;
+}
+#main ul
+{
+margin:0;
+padding:0;
+}
+#main ul li 
+{
+	text-decoration: none;
+	display: inline;
+		
+}
+#main ul li a
+{
+	text-decoration: none;
+	color:white;
+	padding:5px 100px;	
+	border: 3px solid black;
+	border-radius:5px;
+	
+}
+#main ul li a:hover
+{
+background-color: white;
+color:red;
+}
+#main ul li a:visited
+{
+background-color: grey;
+color:blue;
+}
+body
+{
+	
+background-image:url("mm.jpg"); 
+color:white;
+}
+.follow
+{
+	position: absolute;
+	left:1200px;
+	bottom:900px;
+
+}
+.new
+{
+	height:100px;
+	width:80px;
+	border:1px dotted black;
+	
+}
+a:link{
+	color:silver;
+}
