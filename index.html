@@ -5,9 +5,18 @@
 <script type="text/javascript" src="home.js">
 
 </script>
+js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&amp;version=v2.4";
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <header>
 
 <h1>TechAlert</h1>
@@ -42,6 +51,8 @@
 <br>
 <a href="make_command.html">make | linux command</a>
 </section>
+
+<div class="fb-comments" data-href="https://rahul10mail.github.io/" data-numposts="5"></div>
 
 <footer>
 <hr>
