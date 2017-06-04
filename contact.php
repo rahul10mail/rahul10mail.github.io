@@ -1,6 +1,6 @@
 <?php
  
-header( "refresh:5;url=index.php" );
+header( "refresh:5;url=index.html" );
 if(isset($_POST['email'])) {
  
      
